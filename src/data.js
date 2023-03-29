@@ -1,31 +1,17 @@
 //  icons
 import {
-  FiYoutube,
-  FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
 } from 'react-icons/fi';
 
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+import { DiScrum } from "react-icons/di";
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/breve.jpg';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -35,37 +21,29 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
 
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+
 
 // navigation
 export const navigation = [
   {
-    name: 'home',
+    name: 'Início',
     href: 'home',
   },
   {
-    name: 'about',
+    name: 'Sobre',
     href: 'about',
   },
   {
-    name: 'portfolio',
+    name: 'Projetos',
     href: 'portfolio',
   },
   {
-    name: 'services',
+    name: 'Serviços',
     href: 'services',
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
-  },
-  {
-    name: 'contact',
+    name: 'Contato',
     href: 'contact',
   },
 ];
@@ -73,44 +51,12 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
-  },
-  {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/ThiagoLima1996',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
-  },
-];
-
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/thiago-lima-leite-30a4a5218/',
   },
 ];
 
@@ -120,37 +66,31 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'project name 1',
-    category: 'UI/UX design',
+    category: 'Freelancer',
   },
   {
     id: '2',
-    image: Project2,
+    image: Project1,
     name: 'project name 2',
-    category: 'web development',
+    category: 'Pessoal',
   },
   {
     id: '3',
-    image: Project3,
+    image: Project1,
     name: 'project name 3',
-    category: 'UI/UX design',
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    category: 'Freelancer',
   },
   {
     id: '5',
-    image: Project5,
+    image: Project1,
     name: 'project name 5',
-    category: 'web development',
+    category: 'Pessoal',
   },
   {
     id: '6',
-    image: Project6,
+    image: Project1,
     name: 'project name 6',
-    category: 'web development',
+    category: 'Pessoal',
   },
 ];
 
@@ -160,13 +100,10 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'Freelancer',
   },
   {
-    name: 'web development',
-  },
-  {
-    name: 'branding',
+    name: 'Pessoal',
   },
 ];
 
@@ -192,77 +129,49 @@ export const skills = [
   },
   {
     image: SkillImg7,
-  },
-  {
-    image: SkillImg8,
-  },
+  }
 ];
 
 // services
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Desenvolvimento Web',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Crio sites com layout que se adapta a qualquer tipo de tela.',
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: 'Clean code',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Codigos limpos bem desenvolvido de facil manutenção e totalmente reaproveitaveis',
   },
   {
-    icon: <FiPenTool />,
-    name: 'Branding',
+    icon: <FiGithub />,
+    name: 'Git/GitHub',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'plataforma em que profissionais de TI usam para compartilhar os códigos no Git com outros desenvolvedores.',
   },
   {
-    icon: <FiTag />,
-    name: 'SEO',
+    icon: <DiScrum />,
+    name: 'Scrum',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-];
-
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
+      'O Scrum é um framework que contém um conjunto de conceitos, práticas e ferramentas para gerenciar projetos de forma ágil.',
+  }
 ];
 
 // contact
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: 'Tem alguma duvida?',
+    subtitle: 'Estou aqui para ajudar',
+    description: 'envie um Email para thiago.lima.leite@gmail.com',
   },
   {
     icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    title: 'Localização atual',
+    subtitle: 'Rio de Janeiro, duque de caxias',
+    description: 'Disponivél para home office',
   },
 ];
