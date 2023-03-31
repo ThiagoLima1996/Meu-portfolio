@@ -1,4 +1,4 @@
-# Meu Portifoli
+# Meu Portifolio
 Olá seja muito bem vindo.
 
 Desenvolvi esse projeto utilizando o react.js e algumas outras ferramentas. Minha proposta foi criar um projeto simples com designer minimalista que vai direto ao ponto apresentando meu pontos fortes e principais projetos.
