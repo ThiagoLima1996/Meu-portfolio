@@ -1,4 +1,4 @@
-# Meu Portifoli
+# Meu Portifolio
 Olá seja muito bem vindo.
 
 Desenvolvi esse projeto utilizando o react.js e algumas outras ferramentas. Minha proposta foi criar um projeto simples com designer minimalista que vai direto ao ponto apresentando meu pontos fortes e principais projetos.
@@ -55,19 +55,3 @@ A função é simples o setItem fica esperando o sinal do 'all' e o setProjects 
 
 ![](./readme/servicos/servicos.png)
 ![](./readme/servicos/servicos_mobile.png)
-
-## skills 
-
-![](./readme/skills/skills.png)
-![](./readme/skills/skills_mobile.png)
-
-## contatos
-
-![](./readme/contatos/contatos.png)
-![](./readme/contatos/contatos_mobile_mensagem.png)
-
-a parte de contatos é simples como todo o app mas quero deixa aqui outra coisa que me fez evoluir. 
-
-![](./readme/contatos/function_sendmensage.png)
-
-sei que essa função não tem muitas condicionais e que é facil a pessoa frauda os dados mas preferi so ter o retorno de se os campos foram preenchidos. eu utilizai o emailJS e achei ele incrivel instalei ele com o npm, importei ele e chamei a função dele como .send para não precisar transforma minha função em um async eu optei por colocar so um .then mesmo. não fiz os tratamentos de erro pq a aplicação é pequena. optei por so apagar os campos após o envio ser confirmado. Futuramente eu pretendo coloca um aviso visual na tela confirmando o envio, algo como um alert("mensagem enviada com sucesso")
