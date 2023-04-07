@@ -10,7 +10,7 @@ const Services = () => {
                 {/* section title */}
                 <div className="flex flex-col items-center text-center">
                     <h2 className="section-title before:content-serviços relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block">Nos meus serviços</h2>
-                    <p className="subtitle">No dia-a-dia de trabalho e estudo eu utilizo diversas linguagens e metodologias. Pois, decidi listar as 4 principais ferramentas e metodologias do meu dia.</p>
+                    <p className="subtitle">No meu cotidiano de trabalho e estudo, utilizo uma variedade de linguagens e metodologias para desenvolvimento de projetos. Com base nisso, decidi compartilhar as quatro principais ferramentas e metodologias que fazem parte do meu dia a dia.</p>
                 </div>
                 {/* item with grid */}
                 <div className="grid lg:grid-cols-4 gap-8">

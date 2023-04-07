@@ -41,7 +41,8 @@ const About = () => {
                         </div>
                         <p className="mb-4 text-accent "> Desenvolvedor web</p>
                         <hr className="mb-8 opacity-5" />
-                        <p className="mb-8">Oi! Me chamo Thiago Lima, estudante de ciência da computação, tenho 26 anos de idade e crio aplicativos web. Sou desenvolvedor web full Stack apaixonado pela área tecnológica. Por isso estou sempre estudando e me dedicando para me tornar cada vez um profissional melhor. Atualmente sei coda em HTML, CSS (Bootstrap e SASS) e Javascript (React, Node.js, next.js e Jquery). Para me torna um profissional de excelencia estou estudando .net e MySQL.</p>
+                        <p className="mb-8">Olá! Sou Thiago Lima, um desenvolvedor web full stack apaixonado por criar aplicativos web incríveis. Ao longo da minha jornada na área de Ciência da Computação, tenho dedicado meu tempo e habilidades para desenvolver projetos que se destacam pela inovação e usabilidade. <br />
+                            Em minha experiência profissional, tenho trabalhado com diversas tecnologias, incluindo HTML, CSS (Bootstrap e SASS), Javascript (React, Node.js, Next.js e jQuery), .NET e MySQL. Essas habilidades me permitem criar soluções completas, desde o front-end até o back-end, com foco em uma experiência do usuário excepcional.</p>
                         <Link to="contact">
                             <button className="btn btn-mb bg-accent hover:bg-accent-hover transition-all">
                                 Fale comigo

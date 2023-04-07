@@ -41,7 +41,7 @@ const Contact = () => {
                 {/* section title */}
                 <div className="flex flex-col items-center text-center">
                     <h2 className="section-title before:content- relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">Fale comigo</h2>
-                    <p className="subtitle">Se você gosto do que viu até agora entre em contato comigo, estou sempre aberto a uma nova proposta.</p>
+                    <p className="subtitle">Espero que aprecie meu trabalho e minha paixão por desenvolvimento web. Estou sempre em busca de novos desafios e oportunidades para contribuir com projetos inovadores. Ficarei feliz em fornecer mais detalhes sobre qualquer projeto ou tecnologia utilizada. <br /> <strong>Vamos criar algo incrível juntos!</strong></p>
                 </div>
 
                 <div className="flex flex-col lg:gap-x-8 lg:flex-row">
