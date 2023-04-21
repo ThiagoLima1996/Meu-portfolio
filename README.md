@@ -1,6 +1,8 @@
 # Meu Portifolio
 Olá seja muito bem vindo.
 
+confira a aplicação https://thiagolima1996.netlify.app/
+
 Desenvolvi esse projeto utilizando o react.js e algumas outras ferramentas. Minha proposta foi criar um projeto simples com designer minimalista que vai direto ao ponto apresentando meu pontos fortes e principais projetos.
 
 No decorrer desse README.md eu vou apresentar todas as seções do meu site, como eu construi elas, quais foram os desafios e o que eu aprendi durante o desenvolvimento desse projeto. este não foi meu primeiro portfolio, porém, é o meu primeiro "grande" projeto feito quase que 100% com react.
