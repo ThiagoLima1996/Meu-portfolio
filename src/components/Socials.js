@@ -13,7 +13,8 @@ const Socials = () => {
                 key={index}>
                     <a 
                     className="text-base " 
-                    href={item.href}>{item.icon}</a>
+                    href={item.href}
+                    target="_blank">{item.icon}</a>
                 </li>
             })}
         </ul>
